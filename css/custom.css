@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Montserrat-Bold";
-  src: URL(".././font/Montserrat-Bold.ttf") format("truetype");
+  src: URL("./font/Montserrat-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Montserrat-ExtraBold";
-  src: URL(".././font/Montserrat-ExtraBold.ttf") format("truetype");
+  src: URL("./font/Montserrat-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Montserrat-Regular";
-  src: URL(".././font/Montserrat-Regular.ttf") format("truetype");
+  src: URL("./font/Montserrat-Regular.ttf") format("truetype");
 }
 
 body {
