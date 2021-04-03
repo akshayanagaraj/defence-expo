@@ -112,22 +112,41 @@ body {
 }
 
 .red-layer {
-  background-color: #800000;
-  opacity: 45%;
+  background: linear-gradient(rgba(128, 0, 0, 0.45), rgba(128, 0, 0, 0.45)),
+    url("../img/topic.jpeg");
 }
+
 .green-layer {
-  background-color: #708238;
-  opacity: 45%;
+  background: linear-gradient(
+      rgba(112, 130, 56, 0.45),
+      rgba(112, 130, 56, 0.45)
+    ),
+    url("../img/green_back.jpg");
 }
 
 .blue-layer {
-  background-color: #87ceeb;
-  opacity: 50%;
+  background: linear-gradient(
+      rgba(135, 206, 235, 0.45),
+      rgba(135, 206, 235, 0.45)
+    ),
+    url("../img/blue_back.png");
+}
+
+.white-layer {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.45),
+      rgba(255, 255, 255, 0.45)
+    ),
+    url("../img/white_back.jpg");
 }
 
 .blue {
   color: #87ceeb;
   opacity: 100%;
+}
+.form-check-label {
+  background-color: white;
+  padding: 1 1 1 1;
 }
 @media only screen and (max-width: 768px) {
   .row {
