@@ -36,6 +36,8 @@ body {
 }
 .topic {
   background-image: url("../img/topic.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 550px;
 }
 .logo-group {
@@ -114,6 +116,8 @@ body {
 .red-layer {
   background: linear-gradient(rgba(128, 0, 0, 0.45), rgba(128, 0, 0, 0.45)),
     url("../img/topic.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .green-layer {
@@ -122,6 +126,8 @@ body {
       rgba(112, 130, 56, 0.45)
     ),
     url("../img/green_back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .blue-layer {
@@ -130,6 +136,8 @@ body {
       rgba(135, 206, 235, 0.45)
     ),
     url("../img/blue_back.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .white-layer {
@@ -138,6 +146,8 @@ body {
       rgba(255, 255, 255, 0.45)
     ),
     url("../img/white_back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .blue {
