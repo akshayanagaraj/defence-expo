@@ -53,6 +53,9 @@ body {
 .white {
   color: white;
 }
+.align-items-baseline {
+  vertical-align: middle;
+}
 
 .text-align-center {
   text-align: center;
@@ -62,11 +65,10 @@ body {
   margin-left: calc(100% - 88%);
 }
 .img-center {
-  text-align: center;
 }
 .img-center::before {
   content: "";
-  margin-left: calc(100% - 75%);
+  margin-left: calc(100% - 90%);
 }
 .red {
   color: red;
@@ -74,17 +76,17 @@ body {
 
 .text {
   font-family: "Montserrat-Regular", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .text-bold {
   font-family: "Montserrat-Bold", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .text-extrabold {
   font-family: "Montserrat-ExtraBold", sans-serif;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 @media only screen and (max-width: 768px) {
